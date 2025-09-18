@@ -1,10 +1,7 @@
 package linkedlist
 
 // leetcode707_DesignLinkedList
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+
 
 type MyLinkedList struct {
     dummyHead *ListNode
